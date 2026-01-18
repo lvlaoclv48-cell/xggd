@@ -15,6 +15,9 @@
     },
     "api/sendBot.js": {
       "maxDuration": 10
+    },
+    "api/index.js": {
+      "maxDuration": 10
     }
   },
   "headers": [
@@ -27,5 +30,14 @@
         { "key": "Access-Control-Allow-Headers", "value": "X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/api/index.js" },
+    { "source": "/health", "destination": "/api/index.js" },
+    { "source": "/api/sendSms", "destination": "/api/sendSms.js" },
+    { "source": "/api/check", "destination": "/api/check.js" },
+    { "source": "/api/status", "destination": "/api/status.js" },
+    { "source": "/api/enterBot", "destination": "/api/enterBot.js" },
+    { "source": "/api/sendBot", "destination": "/api/sendBot.js" }
   ]
 }
