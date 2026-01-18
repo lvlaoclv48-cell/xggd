@@ -1,7 +1,7 @@
 {
-  "name": "sms-spam-api",
+  "name": "xggd-sms-api",
   "version": "1.0.0",
-  "description": "API для SMS-спама с поддержкой множества сервисов",
+  "description": "API для SMS-спама с поддержкой 45 сервисов",
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
@@ -17,6 +17,9 @@
     "user-agents": "^1.1.0"
   },
   "engines": {
-    "node": "18.x"
-  }
+    "node": "24.x"
+  },
+  "keywords": ["sms", "api", "vercel", "nodejs"],
+  "author": "xggd",
+  "license": "MIT"
 }
