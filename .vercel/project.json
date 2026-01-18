@@ -1,0 +1,15 @@
+{
+  "projectId": "xggd",
+  "orgId": "your-org-id",
+  "settings": {
+    "createdAt": 1737192066000,
+    "framework": null,
+    "devCommand": null,
+    "installCommand": "npm install",
+    "buildCommand": null,
+    "outputDirectory": null,
+    "rootDirectory": null,
+    "directoryListing": false,
+    "nodeVersion": "24.x"
+  }
+}
